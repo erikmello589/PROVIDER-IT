@@ -1,0 +1,52 @@
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+  }
+
+html {
+    font-size: 14px;
+  }
+
+body {
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    color: var(--text-color);
+    padding: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.btn-logout{
+  position: absolute;
+  bottom: 6%;
+  left: 4%;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border:0;
+  font-weight: bold;
+  background-color: rgba(219, 38, 41, 0.35);
+  color: #fafafa;
+  transition: all 0.5s;
+}
+
+.btn-logout:hover{
+  background-color: rgba(219, 38, 41, 1);
+  color: #FFF;
+}
+
+.botoesForm
+{
+  margin-top: 40px;
+  text-align: center;
+}
